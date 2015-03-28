@@ -195,7 +195,7 @@ public class SFUIStarMenu: SFUIStarControl, SFUIStarMenuItemDelegate {
     
     public var menuItems: [SFUIStarMenuItem] = [SFUIStarMenuItem]()
     public var triggeringButton:SFUIStarMenuItem? = nil
-    var delegate: SFUIStarMenuDelegate? = nil
+    public var delegate: SFUIStarMenuDelegate? = nil
     
     public var nearRadius: CGFloat = 0.0
     public var endRadius: CGFloat = 0.0
