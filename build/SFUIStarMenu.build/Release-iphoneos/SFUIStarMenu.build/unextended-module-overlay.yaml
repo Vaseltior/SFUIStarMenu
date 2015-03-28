@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/samuelgrau/Documents/projects/SFrameworks/SFUIStarMenu/build/Release-iphoneos/SFUIStarMenu.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/samuelgrau/Documents/projects/SFrameworks/SFUIStarMenu/build/SFUIStarMenu.build/Release-iphoneos/SFUIStarMenu.build/unextended-module.modulemap',
+    }]
+  }]
+}

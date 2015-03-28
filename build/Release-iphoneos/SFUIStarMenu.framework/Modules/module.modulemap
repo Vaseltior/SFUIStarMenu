@@ -1,0 +1,10 @@
+framework module SFUIStarMenu {
+  umbrella header "SFUIStarMenu.h"
+
+  export *
+  module * { export * }
+}
+
+module SFUIStarMenu.Swift {
+    header "SFUIStarMenu-Swift.h"
+}

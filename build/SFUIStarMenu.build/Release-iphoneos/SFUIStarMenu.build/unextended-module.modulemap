@@ -1,0 +1,6 @@
+framework module SFUIStarMenu {
+  umbrella header "SFUIStarMenu.h"
+
+  export *
+  module * { export * }
+}

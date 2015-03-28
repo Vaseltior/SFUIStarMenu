@@ -1,0 +1,1 @@
+ const unsigned char SFUIStarMenuVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:SFUIStarMenu  PROJECT:SFUIStarMenu-1" "\n"; const double SFUIStarMenuVersionNumber __attribute__ ((used)) = (double)1.;

@@ -10,6 +10,16 @@
 		F59E630F1AB366DD00104A09 /* SFUIStarMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = F59E630E1AB366DD00104A09 /* SFUIStarMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F59E63151AB366DD00104A09 /* SFUIStarMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F59E63091AB366DD00104A09 /* SFUIStarMenu.framework */; };
 		F59E631C1AB366DD00104A09 /* SFUIStarMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E631B1AB366DD00104A09 /* SFUIStarMenuTests.swift */; };
+		F59E63261AB3694E00104A09 /* SFUIStarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E63251AB3694E00104A09 /* SFUIStarMenu.swift */; };
+		F59E63271AB3694E00104A09 /* SFUIStarMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59E63251AB3694E00104A09 /* SFUIStarMenu.swift */; };
+		F5D4A35F1AC7219F00F5B0C9 /* SFUIStarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4A35E1AC7219F00F5B0C9 /* SFUIStarControl.swift */; };
+		F5D4A3601AC7219F00F5B0C9 /* SFUIStarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4A35E1AC7219F00F5B0C9 /* SFUIStarControl.swift */; };
+		F5D4A36A1AC7242300F5B0C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4A3691AC7242300F5B0C9 /* AppDelegate.swift */; };
+		F5D4A36C1AC7242300F5B0C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4A36B1AC7242300F5B0C9 /* ViewController.swift */; };
+		F5D4A36F1AC7242300F5B0C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D4A36D1AC7242300F5B0C9 /* Main.storyboard */; };
+		F5D4A3711AC7242300F5B0C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D4A3701AC7242300F5B0C9 /* Images.xcassets */; };
+		F5D4A3741AC7242300F5B0C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5D4A3721AC7242300F5B0C9 /* LaunchScreen.xib */; };
+		F5D4A3801AC7242300F5B0C9 /* SFUIStarMenuExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D4A37F1AC7242300F5B0C9 /* SFUIStarMenuExampleTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +30,13 @@
 			remoteGlobalIDString = F59E63081AB366DD00104A09;
 			remoteInfo = SFUIStarMenu;
 		};
+		F5D4A37A1AC7242300F5B0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59E63001AB366DD00104A09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D4A3641AC7242300F5B0C9;
+			remoteInfo = SFUIStarMenuExample;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +46,18 @@
 		F59E63141AB366DD00104A09 /* SFUIStarMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFUIStarMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59E631A1AB366DD00104A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59E631B1AB366DD00104A09 /* SFUIStarMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFUIStarMenuTests.swift; sourceTree = "<group>"; };
+		F59E63251AB3694E00104A09 /* SFUIStarMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFUIStarMenu.swift; sourceTree = "<group>"; };
+		F5D4A35E1AC7219F00F5B0C9 /* SFUIStarControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFUIStarControl.swift; sourceTree = "<group>"; };
+		F5D4A3651AC7242300F5B0C9 /* SFUIStarMenuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFUIStarMenuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D4A3681AC7242300F5B0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D4A3691AC7242300F5B0C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5D4A36B1AC7242300F5B0C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D4A36E1AC7242300F5B0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D4A3701AC7242300F5B0C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5D4A3731AC7242300F5B0C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5D4A3791AC7242300F5B0C9 /* SFUIStarMenuExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFUIStarMenuExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D4A37E1AC7242300F5B0C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D4A37F1AC7242300F5B0C9 /* SFUIStarMenuExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFUIStarMenuExampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5D4A3621AC7242300F5B0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D4A3761AC7242300F5B0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +98,8 @@
 			children = (
 				F59E630B1AB366DD00104A09 /* SFUIStarMenu */,
 				F59E63181AB366DD00104A09 /* SFUIStarMenuTests */,
+				F5D4A3661AC7242300F5B0C9 /* SFUIStarMenuExample */,
+				F5D4A37C1AC7242300F5B0C9 /* SFUIStarMenuExampleTests */,
 				F59E630A1AB366DD00104A09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +109,8 @@
 			children = (
 				F59E63091AB366DD00104A09 /* SFUIStarMenu.framework */,
 				F59E63141AB366DD00104A09 /* SFUIStarMenuTests.xctest */,
+				F5D4A3651AC7242300F5B0C9 /* SFUIStarMenuExample.app */,
+				F5D4A3791AC7242300F5B0C9 /* SFUIStarMenuExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,6 +118,8 @@
 		F59E630B1AB366DD00104A09 /* SFUIStarMenu */ = {
 			isa = PBXGroup;
 			children = (
+				F5D4A35E1AC7219F00F5B0C9 /* SFUIStarControl.swift */,
+				F59E63251AB3694E00104A09 /* SFUIStarMenu.swift */,
 				F59E630E1AB366DD00104A09 /* SFUIStarMenu.h */,
 				F59E630C1AB366DD00104A09 /* Supporting Files */,
 			);
@@ -98,6 +147,44 @@
 			isa = PBXGroup;
 			children = (
 				F59E631A1AB366DD00104A09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D4A3661AC7242300F5B0C9 /* SFUIStarMenuExample */ = {
+			isa = PBXGroup;
+			children = (
+				F5D4A3691AC7242300F5B0C9 /* AppDelegate.swift */,
+				F5D4A36B1AC7242300F5B0C9 /* ViewController.swift */,
+				F5D4A36D1AC7242300F5B0C9 /* Main.storyboard */,
+				F5D4A3701AC7242300F5B0C9 /* Images.xcassets */,
+				F5D4A3721AC7242300F5B0C9 /* LaunchScreen.xib */,
+				F5D4A3671AC7242300F5B0C9 /* Supporting Files */,
+			);
+			path = SFUIStarMenuExample;
+			sourceTree = "<group>";
+		};
+		F5D4A3671AC7242300F5B0C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D4A3681AC7242300F5B0C9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5D4A37C1AC7242300F5B0C9 /* SFUIStarMenuExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D4A37F1AC7242300F5B0C9 /* SFUIStarMenuExampleTests.swift */,
+				F5D4A37D1AC7242300F5B0C9 /* Supporting Files */,
+			);
+			path = SFUIStarMenuExampleTests;
+			sourceTree = "<group>";
+		};
+		F5D4A37D1AC7242300F5B0C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5D4A37E1AC7242300F5B0C9 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,12 +239,48 @@
 			productReference = F59E63141AB366DD00104A09 /* SFUIStarMenuTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F5D4A3641AC7242300F5B0C9 /* SFUIStarMenuExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D4A3811AC7242300F5B0C9 /* Build configuration list for PBXNativeTarget "SFUIStarMenuExample" */;
+			buildPhases = (
+				F5D4A3611AC7242300F5B0C9 /* Sources */,
+				F5D4A3621AC7242300F5B0C9 /* Frameworks */,
+				F5D4A3631AC7242300F5B0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFUIStarMenuExample;
+			productName = SFUIStarMenuExample;
+			productReference = F5D4A3651AC7242300F5B0C9 /* SFUIStarMenuExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D4A3781AC7242300F5B0C9 /* SFUIStarMenuExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D4A3841AC7242300F5B0C9 /* Build configuration list for PBXNativeTarget "SFUIStarMenuExampleTests" */;
+			buildPhases = (
+				F5D4A3751AC7242300F5B0C9 /* Sources */,
+				F5D4A3761AC7242300F5B0C9 /* Frameworks */,
+				F5D4A3771AC7242300F5B0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D4A37B1AC7242300F5B0C9 /* PBXTargetDependency */,
+			);
+			name = SFUIStarMenuExampleTests;
+			productName = SFUIStarMenuExampleTests;
+			productReference = F5D4A3791AC7242300F5B0C9 /* SFUIStarMenuExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F59E63001AB366DD00104A09 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SFUI;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Samuel GRAU";
 				TargetAttributes = {
@@ -167,6 +290,13 @@
 					F59E63131AB366DD00104A09 = {
 						CreatedOnToolsVersion = 6.2;
 					};
+					F5D4A3641AC7242300F5B0C9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F5D4A3781AC7242300F5B0C9 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = F5D4A3641AC7242300F5B0C9;
+					};
 				};
 			};
 			buildConfigurationList = F59E63031AB366DD00104A09 /* Build configuration list for PBXProject "SFUIStarMenu" */;
@@ -175,6 +305,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F59E62FF1AB366DD00104A09;
 			productRefGroup = F59E630A1AB366DD00104A09 /* Products */;
@@ -183,6 +314,8 @@
 			targets = (
 				F59E63081AB366DD00104A09 /* SFUIStarMenu */,
 				F59E63131AB366DD00104A09 /* SFUIStarMenuTests */,
+				F5D4A3641AC7242300F5B0C9 /* SFUIStarMenuExample */,
+				F5D4A3781AC7242300F5B0C9 /* SFUIStarMenuExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +335,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F5D4A3631AC7242300F5B0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D4A36F1AC7242300F5B0C9 /* Main.storyboard in Resources */,
+				F5D4A3741AC7242300F5B0C9 /* LaunchScreen.xib in Resources */,
+				F5D4A3711AC7242300F5B0C9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D4A3771AC7242300F5B0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -209,6 +359,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D4A35F1AC7219F00F5B0C9 /* SFUIStarControl.swift in Sources */,
+				F59E63261AB3694E00104A09 /* SFUIStarMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +368,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F59E63271AB3694E00104A09 /* SFUIStarMenu.swift in Sources */,
+				F5D4A3601AC7219F00F5B0C9 /* SFUIStarControl.swift in Sources */,
 				F59E631C1AB366DD00104A09 /* SFUIStarMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D4A3611AC7242300F5B0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D4A36C1AC7242300F5B0C9 /* ViewController.swift in Sources */,
+				F5D4A36A1AC7242300F5B0C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D4A3751AC7242300F5B0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D4A3801AC7242300F5B0C9 /* SFUIStarMenuExampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,7 +399,31 @@
 			target = F59E63081AB366DD00104A09 /* SFUIStarMenu */;
 			targetProxy = F59E63161AB366DD00104A09 /* PBXContainerItemProxy */;
 		};
+		F5D4A37B1AC7242300F5B0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D4A3641AC7242300F5B0C9 /* SFUIStarMenuExample */;
+			targetProxy = F5D4A37A1AC7242300F5B0C9 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D4A36D1AC7242300F5B0C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D4A36E1AC7242300F5B0C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5D4A3721AC7242300F5B0C9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D4A3731AC7242300F5B0C9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F59E631D1AB366DD00104A09 /* Debug */ = {
@@ -319,6 +514,7 @@
 		F59E63201AB366DD00104A09 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -328,12 +524,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F59E63211AB366DD00104A09 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -376,6 +574,64 @@
 			};
 			name = Release;
 		};
+		F5D4A3821AC7242300F5B0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SFUIStarMenuExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5D4A3831AC7242300F5B0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SFUIStarMenuExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5D4A3851AC7242300F5B0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SFUIStarMenuExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFUIStarMenuExample.app/SFUIStarMenuExample";
+			};
+			name = Debug;
+		};
+		F5D4A3861AC7242300F5B0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SFUIStarMenuExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFUIStarMenuExample.app/SFUIStarMenuExample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -395,12 +651,30 @@
 				F59E63211AB366DD00104A09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F59E63221AB366DD00104A09 /* Build configuration list for PBXNativeTarget "SFUIStarMenuTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F59E63231AB366DD00104A09 /* Debug */,
 				F59E63241AB366DD00104A09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D4A3811AC7242300F5B0C9 /* Build configuration list for PBXNativeTarget "SFUIStarMenuExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D4A3821AC7242300F5B0C9 /* Debug */,
+				F5D4A3831AC7242300F5B0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5D4A3841AC7242300F5B0C9 /* Build configuration list for PBXNativeTarget "SFUIStarMenuExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D4A3851AC7242300F5B0C9 /* Debug */,
+				F5D4A3861AC7242300F5B0C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

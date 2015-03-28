@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/samuelgrau/Documents/projects/SFrameworks/SFUIStarMenu/build/Release-iphoneos/SFUIStarMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SFUIStarMenu-Swift.h",
+          'external-contents': "/Users/samuelgrau/Documents/projects/SFrameworks/SFUIStarMenu/build/Release-iphoneos/SFUIStarMenu.framework/Headers/SFUIStarMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SFUIStarMenu.h",
+          'external-contents': "/Users/samuelgrau/Documents/projects/SFrameworks/SFUIStarMenu/SFUIStarMenu/SFUIStarMenu.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/samuelgrau/Documents/projects/SFrameworks/SFUIStarMenu/build/Release-iphoneos/SFUIStarMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/samuelgrau/Documents/projects/SFrameworks/SFUIStarMenu/build/Release-iphoneos/SFUIStarMenu.framework/Modules/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
