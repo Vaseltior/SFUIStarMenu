@@ -212,6 +212,7 @@ public class SFUIStarMenu: SFUIStarControl, SFUIStarMenuItemDelegate {
     public var timeOffset: NSTimeInterval = 0.0
     public var rotateAngle: CGFloat = 0.0
     public var menuWholeAngle: CGFloat = 0.0
+    public var menuStartAngle: CGFloat = 0.0
     public var expandRotation: CGFloat = 0.0
     public var closeRotation: CGFloat = 0.0
     public var animationDuration: NSTimeInterval = 0.0
@@ -327,7 +328,7 @@ public class SFUIStarMenu: SFUIStarControl, SFUIStarMenuItemDelegate {
                 self.menuWholeAngle = menuWholeAngle - menuWholeAngle / CGFloat(count)
             }
             
-            let v = Float(i) * Float(menuWholeAngle) / Float(count - 1)
+            let v = Float(i) * Float(menuWholeAngle + menuStartAngle) / Float(count - 1)
             let endPoint = CGPointMake(
                 startPoint.x + self.endRadius * CGFloat(sinf(v)),
                 startPoint.y - self.endRadius * CGFloat(cosf(v))
